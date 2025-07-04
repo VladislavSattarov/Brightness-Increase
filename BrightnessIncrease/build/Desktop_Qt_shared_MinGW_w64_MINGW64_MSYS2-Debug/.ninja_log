@@ -1,0 +1,12 @@
+# ninja log v6
+121	1589	7732982756424746	CMakeFiles/BrightnessIncrease.dir/main.cpp.obj	45115f15d40dd71a
+127	1148	7732982756475383	CMakeFiles/BrightnessIncrease.dir/Source/QtImageSaver.cpp.obj	6743c7e51886c712
+1589	1729	7732982771108093	BrightnessIncrease.exe	3abf16430650964
+130	1369	7732982756505972	CMakeFiles/BrightnessIncrease.dir/Source/QtImageLoader.cpp.obj	88532ccb4d2bcbc8
+23	120	7732982755442531	C:/Users/vlads/Documents/Brightness-Increase/BrightnessIncrease/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/BrightnessIncrease_autogen/mocs_compilation.cpp	8bb5d29d7ca57494
+124	315	7732982756444962	CMakeFiles/BrightnessIncrease.dir/Source/BrightnessFilter.cpp.obj	d1d463f0ebf4f1a1
+23	120	7732982755442531	BrightnessIncrease_autogen/mocs_compilation.cpp	8bb5d29d7ca57494
+162	213	7732945157786729	CMakeFiles/BrightnessIncrease.dir/BrightnessIncrease_autogen/mocs_compilation.cpp.obj	def56aa6907f52f5
+23	120	7732982755442531	BrightnessIncrease_autogen/timestamp	8bb5d29d7ca57494
+23	120	7732982755442531	C:/Users/vlads/Documents/Brightness-Increase/BrightnessIncrease/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/BrightnessIncrease_autogen/timestamp	8bb5d29d7ca57494
+16	373	7732945155528830	build.ninja	e68ae2513b3dab11
