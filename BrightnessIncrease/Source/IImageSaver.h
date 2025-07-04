@@ -1,9 +1,18 @@
 #pragma once
-#include "ImageData.h"
-class ImageData;
 
+#include "ImageData.h"
+
+////////////////////////////////////////////////////////////////////////////////
+//
+/// Интерфейс для сохранения изображения.
+/**
+  Интерфейс IImageSaver определяет базовые методы для работы с сохранением изображений.
+ */
+////////////////////////////////////////////////////////////////////////////////
 class IImageSaver {
 public:
+    /// Виртуальный деструктор
     virtual ~IImageSaver() = default;
+    /// Сохраняет изображение в файл
     virtual bool Save(const ImageData& image, const std::string& path) const = 0;
 };

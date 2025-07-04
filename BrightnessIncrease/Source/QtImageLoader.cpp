@@ -4,6 +4,13 @@
 #include "QtImageLoader.h"
 #include "ImageData.h"
 
+//-----------------------------------------------------------------------------
+/**
+    Загружает изображение из указанного файла.
+    \param path Путь к файлу изображения.
+    \return Объект ImageData при успешной загрузке, иначе std::nullopt.
+*/
+//---
 std::optional<ImageData> QtImageLoader::Load(const std::string& path) const {
     QImage image(QString::fromStdString(path));
     if (image.isNull()) {

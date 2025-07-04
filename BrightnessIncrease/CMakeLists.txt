@@ -25,6 +25,7 @@ add_executable(BrightnessIncrease
   Source/QtImageLoader.h Source/QtImageLoader.cpp
   Source/Pixel.h
 )
+
 target_link_libraries(BrightnessIncrease Qt${QT_VERSION_MAJOR}::Core)
 target_link_libraries(BrightnessIncrease Qt${QT_VERSION_MAJOR}::Gui)
 

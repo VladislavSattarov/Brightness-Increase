@@ -10,7 +10,6 @@
 #include "Source/QtImageLoader.h"
 
 int main() {
-
     std::string inPath, outPath;
     int brightness;
 
@@ -34,7 +33,7 @@ int main() {
 
     auto& image = imageOpt.value();
     BrightnessFilter filter(brightness);
-    filter.Apply(image);
+    filter.Apply(&image);
 
     if (!saver->Save(image, outPath)) {
         std::cout << "Failed to save image to: " << outPath << std::endl;

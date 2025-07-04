@@ -4,6 +4,14 @@
 #include "QtImageSaver.h"
 #include "ImageData.h"
 
+//-----------------------------------------------------------------------------
+/**
+    Сохраняет изображение в файл.
+    \param image Константная ссылка на изображение для сохранения.
+    \param param path Путь к выходному файлу.
+    \return true если сохранение прошло успешно, иначе false.
+*/
+//---
 bool QtImageSaver::Save(const ImageData& image, const std::string& path) const {
     QImage outImage(image.GetWidth(), image.GetHeight(), QImage::Format_RGB888);
     for (int y = 0; y < image.GetHeight(); ++y) {
